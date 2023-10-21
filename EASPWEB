@@ -1,0 +1,228 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="UTS.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script> 
+</head>
+<body>
+  <!--Navbar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Exhibition.html">Exhibition</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Publication</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Apply To School</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown link
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+    </div>
+      </nav>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container text-center">
+            <br>
+            <img src="pp-pr.png" alt="">
+          <h1 class="display-4">Yale School Of Art</h1>
+          <p class="lead">1156 Chapel Street, POB 208339
+            New Haven, Connecticut, 06520-8339</p>
+        </div>
+    </div>
+<!--About-->
+    <div class="container" id="about">
+        <div class="row">
+            <div class="col text-center">
+                <h1>About The School</h1>
+            </div>
+        </div>
+        <div class="row" id="abs-row">
+            <div class="col text-center " class="abs-text">
+                The Yale School of Art is a graduate school that confers MFAs in Graphic Design, Painting/Printmaking, Photography, and Sculpture; and offers undergraduate-level art courses to Yale College students. Our website exists as an ongoing collaborative experiment in digital publishing and information sharing. It functions as a wiki—all members of the School of Art community have the ability to add new, and edit most existing content.
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col text-center">
+                <h1>About The Website</h1>
+            </div>
+        </div>
+        <div class="row" id="abw-row">
+            <div class="col text-center" id="abw-text">
+                This website exists as an ongoing collaborative experiment in digital publishing and information sharing. Because this website functions as a wiki, all members of the School of Art community—graduate students, faculty, staff, and alums—have the ability to add new content and pages, and to edit most of the site’s existing content.
+
+Content is the property of its various authors. When you contribute to this site, you agree to abide by Yale University academic and network use policy, and to act as a responsible member of our community.
+            </div>
+        </div>
+        <br>
+        <br>
+    </div>
+    <!--Activity To Join-->
+    <div class="container" id="atj">
+       <div class="row">
+        <div class="col text-center">
+            <h1>Activity to Join</h1>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+    <div class="col-7 text-center"> <img src="atj-1.png" alt="" id="ajt-img" height="600px"></div>
+    <div class="col-5 text-left" id="atj-isi">
+        <div>
+        <h2>DEI Session: Generational Differences at Yale</h2>
+        <u>Wed, October 18</u>
+        <u>1-3PM in 36 Edgewood Ave. Room 204</u>
+        <p>This DEI session will explore the following learning outcomes:
+
+            <ul>• Identifying the generalizations associated with differences in the generations within our school
+            </ul>
+            <ul>
+            • Understanding ways to communicate in a manner that best relates to each generation
+            </ul>
+            <ul>
+            • Learning why it is important to modify our approach for different people and different ages
+            </ul>
+            <ul>
+            • Discovering why we benefit from varied and different perspectives through exploration of unconscious bias and microaggressions in ageism
+            </ul>
+            <ul>
+            • Promoting diversity awareness, community, and effective communication in our school</p>
+        </ul>
+    </div>
+    </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col-7 text-center"> <img src="atj-2.jpg" alt="" id="ajt-img" height="600px"></div>
+        <div class="col-5 text-left" id="atj-isi">
+            <div>
+            <h2>Public Art Tour</h2>
+            <u>Thurs. October 19</u>
+            <p><u>2PM, meeting in the Crown Street Courtyard</u></p>
+            <p>Lindsey Mancini, Assistant Director of Communications and public art researcher, is leading an art walk to, past, and around the art she's mapped so far in New Haven as part of her practice/project ArtAround.
+
+                It'll be a short, fun, informal tour of art around our buildings at the School of Art. Join us! </p>
+    
+                
+        </div>
+        </div>
+        </div>
+    </div>
+    <br>
+    <br>
+  <!--Course-->
+  <div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="htm.jpeg" alt="Los Angeles" width="1300" height="500">
+      <div class="carousel-caption">
+        <h3>Los Angeles</h3>
+        <p>We had such a great time in LA!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="htm.jpeg" alt="Chicago" width="1300" height="500">
+      <div class="carousel-caption">
+        <h3>Chicago</h3>
+        <p>Thank you, Chicago!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="htm.jpeg" alt="New York" width="1300" height="500">
+      <div class="carousel-caption">
+        <h3>New York</h3>
+        <p>We love the Big Apple!</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<br>
+<br>
+    <!-- exhibition-->
+    <div class="container">
+      <div class="col">
+        <h1>EXHIBITIONS</h1>
+        <br>
+        <P>The School of Art galleries in Green Hall provide a year-round forum for the exhibition of work by students, faculty, and special guests in the four graduate departments of the School and the undergraduate program.
+
+          During exhibitions, Green Hall Gallery at 1156 Chapel Street is typically open to the public but due to COVID-19, it will remain open only to the Yale community until further notice.</P>
+      </div>
+      <div class="container">
+     <div class="row">
+      <div class="col"><h2>why do i always fall out of bed at night?</h2></div>
+      <div class="col"> <h2> </h2></div> 
+      </div>
+     </div>
+     <div class="row">
+      <div class="col"><h4>1st-Year MFA Show</h4>
+        <h3>October 16 – November 4, 2023</h3>
+        <h3>Green Hall Gallery</h3>
+        <h5>Public reception on Wednesday, November 1 from 6-8PM</h5>
+        <p></p></div>
+      <div class="col">
+        <h5>2nd Year MFA Show</h5>
+        <p>September 20 – October 4, 2023</p>
+        <i>Public reception: Wednesday, October 4 from 6-8PM</i>
+        <h5>1st Year MFA Show</h5>
+        <p>October 16 – November 4</p>
+        <i>Note: Yale College’s fall recess (for undergraduate students) is Oct 17-22.</i>
+        <i>Public reception: TBD</i>
+        <h5>Undergraduate Show</h5>
+        <p>November 13 – December 8</p>
+        <i>Note: Thanksgiving recess is Nov 17-26.</i>
+        <i>Public reception: TBD</i>
+      </div>
+    </div>
+    </div>
+    <!---->
+
+</body>
+</html>
